@@ -21,5 +21,6 @@ JavaScript (opcional): Pode ser utilizado para melhorar a interatividade do site
 
 🎯 Objetivo
 Este projeto foi desenvolvido como parte de um trabalho para a faculdade para aprender e aplicar conceitos de desenvolvimento web, incluindo a criação de um site com HTML, CSS, e noções de responsividade. Além disso, o projeto explora como os sistemas anti-cheat funcionam e por que são importantes na indústria dos jogos.
+
 📝 Licença
 Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo e modificá-lo.
