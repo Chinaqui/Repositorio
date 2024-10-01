@@ -1,0 +1,124 @@
+/* Estilos gerais */
+body {
+    font-family: FreeMono, monospace;
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+    margin: 0;
+    padding: 0;
+}
+/* Centralizar apenas a imagem do repositório */
+#repositorio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; 
+    height: auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000000; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+a {
+    color: #000000; /* Preto para links */
+}
+
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #000000; /* Para títulos */
+}
+
+p {
+    text-align: justify;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000000; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center; 
+    margin: 10;
+    padding: 10px;
+
+}
+/* Estilo do formulário */
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1d1c1c;
+}
+
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
