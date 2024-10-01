@@ -9,10 +9,12 @@ Anti-Cheats Famosos: Informações sobre os sistemas anti-cheat mais conhecidos.
 Tecnologias: Detalhes sobre as tecnologias utilizadas para desenvolver sistemas anti-cheat.
 Sobre: Informações sobre o projeto, o desenvolvedor e a missão do site.
 Contato: Formulário de contato e informações para tirar dúvidas ou obter mais detalhes.
+
 🚀 Tecnologias Utilizadas
 HTML5: Estrutura do site.
 CSS3: Estilos e layout, com foco em um design responsivo.
 JavaScript (opcional): Pode ser utilizado para melhorar a interatividade do site.
+
 🎯 Objetivo
 Este projeto foi desenvolvido como parte de um trabalho para a faculdade para aprender e aplicar conceitos de desenvolvimento web, incluindo a criação de um site com HTML, CSS, e noções de responsividade. Além disso, o projeto explora como os sistemas anti-cheat funcionam e por que são importantes na indústria dos jogos.
 📝 Licença
