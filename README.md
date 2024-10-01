@@ -1,5 +1,5 @@
 # Repositorio
-Este é um projeto de desenvolvimento de um site sobre sistemas anti-cheat, criado como parte de um trabalho escolar. O site fornece informações sobre várias soluções de anti-cheat utilizadas em jogos online, com o objetivo de educar sobre a importância da segurança nos jogos e como esses sistemas funcionam para evitar trapaças.
+Este é um projeto de desenvolvimento de um site sobre sistemas anti-cheat, criado como parte de um trabalho da faculdade. O site fornece informações sobre várias soluções de anti-cheat utilizadas em jogos online, com o objetivo de educar sobre a importância da segurança nos jogos e como esses sistemas funcionam para evitar trapaças.
 
 📋 Descrição
 O site contém cinco páginas principais, cada uma com um propósito claro:
