@@ -5,9 +5,13 @@ Este é um projeto de desenvolvimento de um site sobre sistemas anti-cheat, cria
 O site contém cinco páginas principais, cada uma com um propósito claro:
 
 Início: Visão geral do site e introdução aos sistemas de anti-cheat.
+
 Anti-Cheats Famosos: Informações sobre os sistemas anti-cheat mais conhecidos.
+
 Tecnologias: Detalhes sobre as tecnologias utilizadas para desenvolver sistemas anti-cheat.
+
 Sobre: Informações sobre o projeto, o desenvolvedor e a missão do site.
+
 Contato: Formulário de contato e informações para tirar dúvidas ou obter mais detalhes.
 
 🚀 Tecnologias Utilizadas
