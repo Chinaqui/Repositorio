@@ -1,11 +1,12 @@
 /* Estilos gerais */
 body {
     font-family: FreeMono, monospace;
-    background-color: #ffffff; /* Fundo branco */
+    background-color: #f8f8f8; /* Fundo branco */
     color: #000000; /* Texto preto */
     margin: 0;
     padding: 0;
 }
+
 /* Centralizar apenas a imagem do repositório */
 #repositorio img {
     display: block;
@@ -28,9 +29,89 @@ header h1 {
 }
 
 a {
-    color: #000000; /* Preto para links */
+    color: #ffffff; /* Branco para links */
 }
 
+/* Fundo de imagem para todas as páginas */
+body {
+    background-image: url('anticheat-1.webp'); /* Substitua pelo caminho correto */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Torna o texto legível sobre o fundo */
+    font-family: FreeMono, monospace;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ocupa toda a altura da tela */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Overlay para melhorar o contraste em todas as páginas */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Camada preta semi-transparente */
+    z-index: -1;
+}
+
+/* Cabeçalho que ocupa toda a largura da tela */
+header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo preto com leve transparência */
+    color: white;
+    padding: 20px 0; /* Aumenta o padding para mais altura */
+    text-align: center;
+}
+
+/* Menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Centraliza e ajusta o conteúdo das seções */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro para contraste */
+    border-radius: 8px;
+}
+
+/* Rodapé com fundo igual ao cabeçalho */
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo preto com leve transparência */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto; /* Empurra o rodapé para o final */
+    position: relative;
+    z-index: 1; /* Garante que o rodapé fique acima da imagem */
+    display: flex;
+    justify-content: center; /* Garante a centralização do conteúdo */
+}
 
 /* Navegação */
 nav ul {
@@ -54,33 +135,19 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-
+/* Ajustes em seções */
 section {
     padding: 20px;
 }
 
 h2 {
-    color: #000000; /* Para títulos */
+    color: #ffffff; /* Para títulos */
 }
 
 p {
     text-align: justify;
 }
 
-/* Rodapé */
-footer {
-    background-color: #000000; 
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-footer p {
-    text-align: center; 
-    margin: 10px;
-    padding: 10px;
-
-}
 /* Estilo do formulário */
 form {
     width: 100%;
@@ -115,7 +182,7 @@ form input[type="submit"]:hover {
     background-color: #1d1c1c;
 }
 
-
+/* Responsividade */
 @media (max-width: 600px) {
     nav ul li {
         display: block;
